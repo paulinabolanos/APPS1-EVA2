@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtVwDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#72FFC107"
+        android:gravity="center"
+        android:text="DialogBox Demo"
+        android:textColor="#D55F5656"
+        android:textSize="18sp"
+        app:fontFamily="monospace" />
+
+    <Button
+        android:id="@+id/btnAlertDialogBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginRight="50dp"
+        android:background="#5E00BCD4"
+        android:text="Alert Dialog Box"
+        android:textColor="#CE494545"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnCusDialogBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="50dp"
+        android:autoText="true"
+        android:background="#5E00BCD4"
+        android:text="Custom Dialog Box"
+        android:textColor="#CE494545"
+        android:textIsSelectable="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnAlertDialogFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="50dp"
+        android:background="#5E00BCD4"
+        android:text="Alert Dialog Fragment"
+        android:textColor="#CE494545"
+        android:textSize="18sp" />
+</LinearLayout>
